@@ -3,25 +3,36 @@ background-color: #ff4c68;
 color: #fff;
 
 }
+
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    z-index: 1;
+    
+}
+
 .heading{
     font-family:"Montserrat-Black",sans-serif;
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
     
-  
+    
 }
 
 .container{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
     overflow: hidden;
   position: relative;
-  height: 600px;
+  
 }
 
 .img-iphone{
-    width: 50%;
+    width: 25%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
     
 }
 body{
@@ -90,9 +101,6 @@ text-align: center;
     
 }
 
-#features{
-    padding: 7% 15%;
-}
 
 #testimonials{
     text-align: center;
