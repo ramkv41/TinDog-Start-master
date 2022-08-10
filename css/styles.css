@@ -84,10 +84,9 @@ margin-bottom: 1rem;
     
     }
 
-.row{
-
-    text-align: center;
-    padding: 5%;
+#row1{
+text-align: center;
+   
     
 }
 
@@ -132,12 +131,16 @@ h2{
 }
 
 #pricing{
-    padding: 100px;
+   padding: 100px;
     text-align: center;
 }
-.pricing-column{
-
-    padding: 3% 2%;
+#pricing-column{
+    padding: 0px;
+   width: 30%;
+   margin: 10px;
+  
+   text-align: center;
+  
 }
 
 #cta{
